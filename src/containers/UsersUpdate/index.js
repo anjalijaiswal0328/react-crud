@@ -35,7 +35,7 @@ export class UsersUpdate extends Component {
   }
 
   render() {
-    const { firstName, lastName, email, role } = this.state;
+    const { firstName, lastName, role } = this.state;
     return (
       <div className="container">
         <div className="row">
